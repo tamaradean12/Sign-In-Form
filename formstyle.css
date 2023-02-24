@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: white;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    background-color: rgb(33, 33, 33);
+    background-image: url("foottrails-sign-in-pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-container {
+    text-align: center;
+    font-size: 12px;
+    border-style: none;
+    margin: 6.5rem;
+    padding: 20px;
+    min-height: 50vh;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.845);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 5px 30px rgb(255, 155, 33);
+}
+
+#form-section {
+    margin: 30px 0px 30px 0px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input {
+    /* width:100%; */
+    margin: 5px 0px 5px 0px;
+    padding: 0px 45px 0px 45px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+label {
+    margin-top: 9px;
+    position: absolute;
+    left: 7%;
+}
+
+.label-style {
+    color: orange;
+    border-bottom: 1px solid white;
+}
+
+ion-icon {
+    margin-top: 10px;
+    position: absolute;
+    right: 7%;
+    align-items: center;
+}
+
+
+
+#forgot-pwd {
+    margin-top: -20px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: white;
+    width: 95%;
+    border-style: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+}
+
+#register {
+    margin-top: 30px;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 10px;
+    color: rgb(255, 200, 98);
+}
